@@ -125,6 +125,20 @@ body {
   color: black;
 }
 
+.register-header {
+  text-align: center;
+}
+
 .register-text {
   text-align: right;
+}
+
+.login > .card {
+  width: 22rem;
+  margin: 0 auto;
+  float: none;
+}
+
+.login h2 {
+  text-align: center;
 }
