@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import "font-awesome";
 
 /*
  * Globals
@@ -157,6 +158,7 @@ h6, .h6 {
  */
 
 .blog-footer {
+  width: 100%;
   padding: 2.5rem 0;
   color: #999;
   text-align: center;
@@ -166,3 +168,11 @@ h6, .h6 {
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
+
+/*
+ * Custom styles
+ */
+
+ .social-links li {
+    font-size: 2.5rem;
+ }
