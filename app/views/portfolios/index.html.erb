@@ -1,5 +1,11 @@
 <div class="album py-5 bg-light">
   <div class="container">
+    <% if logged_in?(:site_admin) %>
+      <div>
+        <%= link_to 'Add a new item', new_portfolio_path %>
+      </div>
+      <hr>
+    <% end %>
     <div class="row <%= 'sortable' if logged_in?(:site_admin) %>">
 
       <%= render partial: 'portfolio_item', collection: @portfolio_items %>
